@@ -45,6 +45,7 @@ public class Program {
 						System.out.print("Invalid value! Enter piece for promotion (B/N/R/Q): ");
 						type = sc.nextLine().toUpperCase();
 					}
+					//new type of promotion
 					chessMatch.replacePromotedPiece(type);
 				}
 			}
